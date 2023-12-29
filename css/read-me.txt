@@ -1,0 +1,8 @@
+first install wkhtmltopdf binary on system with path in environment variable
+
+to start tailwind compiler
+npx tailwindcss -i ./css/style.css -o ./dist/output.css --watch
+
+for generating pdf
+wkhtmltopdf --enable-local-file-access index.html  output.pdf
+
